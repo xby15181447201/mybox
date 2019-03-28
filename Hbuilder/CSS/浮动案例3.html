@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>导航条结构</title>
+		<style type="text/css">
+			.first{
+				width: 990px;
+				height: 62px;
+				background-color: #777777;
+			}
+			.short{
+				width: 78px;
+				height: 62px;
+				float: left;
+				color: white;
+				text-align: center;
+				line-height: 62px;
+			}
+			.first div:hover{
+				background-color: #4CAF50;
+			}
+			.long{
+				width: 118px;
+				height: 62px;
+				float: left;
+				color: white;
+				text-align: center;
+				line-height: 62px;
+			}
+
+			.clear::after{
+				content: "";
+				display: block;
+				clear: both;
+			}
+			.three{
+				width: 230px;
+				height: 432px;
+				padding:20px 0px 20px 20px ;
+				float: left;
+			}
+			.three div{
+				width: 212px;
+				height: 42px;
+				background-color: #EEEEEE;
+				line-height: 42px;
+				text-indent: 1em;
+				margin-top:4px ;
+				color: #6B6869;
+			}
+			.three div:hover{
+				background-color: #008CBA;
+			}
+			.four{
+				float: left;
+			}
+			.four1{
+				width: 740px;
+				height: 132px;
+				background-color: #2196F3;
+				text-align: center;
+				line-height: 132px;
+				margin:20px  20px 0 0;
+			}
+			.p1{
+				display: inline-block;
+				width: 740px;
+				height: 30px;
+				line-height: 20px;
+				margin-top:38px ;
+				font-size: 40px;
+			}
+			.p2{
+				display:block;
+				width: 740px;
+				height: 100px;
+				text-align: left;
+				font-size: 20px;
+				margin-top:0px ;
+			}
+			.downtext{
+				width: 990px;
+				height: 96px;
+				background-color: #444444;
+				font-size: 16px;
+				color: white;
+				line-height: 96px;
+				margin-top:0 ;
+				text-indent: 2em;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="first">
+			<div class="short">主页</div>
+			<div class="short">新闻</div>
+			<div class="long">联系我们</div>
+			<div class="long">关于我们</div>
+		</div>
+		<div class="big clear">
+			<div class="three ">
+				<div>HTML5</div>
+				<div>CSS</div>
+				<div>JavaScript</div>
+				<div>Node.js</div>
+				<div>Vue.js</div>
+				<div>React.js</div>
+				<div>小程序</div>
+			</div>
+			<div class="four ">
+				<div class="four1"><h1>这是标题</h1></div>
+				<div><p class="p1">HTML</p></div>
+				<div><p class="p2">html5是指万维网的核心语言、 标准通用标记语言下的一个应用 超文本标记语言（ HTML）的第五次重大修改（这是一项推荐标准、外语原文： W3C Recommendation、见本处 参考资料原文内容： [1] ）2014年10月29日， 万维网联盟宣布，经过接近8年的艰苦努力，该标准规范终于制定完成。</p></div>
+			</div>
+		</div>
+		<div class="downtext">底部文本</div>
+	</body>
+</html>

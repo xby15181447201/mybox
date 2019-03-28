@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			input:focus{
+				outline: none;
+			}
+			.sex:checked+span{
+				color: red;
+			}
+			input:enabled{
+				color: green;
+			}
+			input:disabled{
+				background: yellow;
+			}
+			.ha:enabled{
+				color: pink;
+			}
+			.r:enabled{
+				color: purple;
+			}
+		</style>
+	</head>
+	<body>
+		<input type="button" value="大傻逼" class="ha"/>
+		<input type="text" placeholder="哟用户名"/>
+		<input type="reset" class="r"/>
+		<input type="radio" name="sex" class="sex"/><span>男</span>
+		<input type="radio" name="sex" class="sex"/><span>女</span>
+		<input type="password" placeholder="密码" disabled="disabled"/>
+	</body>
+</html>

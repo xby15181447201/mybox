@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.a{
+				width: 30px;
+				height: 30px;
+				border-radius: 15px;
+				background: red;
+				position: absolute;
+				left: 20px;
+				top: 50px;
+				float: left;
+				animation-name: name;
+				animation-duration: 1.5s;
+				animation-direction: alternate;
+				animation-iteration-count: infinite;
+				animation-timing-function:(.09,.67,.26,.89);
+			}
+			.b{
+				width: 30px;
+				height: 30px;
+				border-radius: 15px;
+				background: green;
+				position: absolute;
+				left: 60px;
+				top: 100px;
+				float: left;
+				animation-name: name;
+				animation-duration:1s;
+				animation-direction: alternate;
+				animation-iteration-count: infinite;
+				animation-timing-function:(.09,.67,.26,.89);
+			}
+			.c{
+				width: 30px;
+				height: 30px;
+				border-radius: 15px;
+				background: yellow;
+				position: absolute;
+				left: 100px;
+				top: 150px;
+				float: left;
+				animation-name: name;
+				animation-duration: 2s;
+				animation-direction: alternate;
+				animation-iteration-count: infinite;
+				animation-timing-function:(.09,.67,.26,.89);
+			}
+			.d{
+				width: 30px;
+				height: 30px;
+				border-radius: 15px;
+				background: gray;
+				position: absolute;
+				left: 140px;
+				top: 200px;
+				float: left;
+				animation-name: name;
+				animation-duration: 3s;
+				animation-direction: alternate;
+				animation-iteration-count: infinite;
+				animation-timing-function:(.09,.67,.26,.89);
+			}
+			.e{
+				width: 30px;
+				height: 30px;
+				border-radius: 15px;
+				background: purple;
+				position: absolute;
+				left: 180px;
+				top: 250px;
+				float: left;
+				animation-name: name;
+				animation-duration: 1.2s;
+				animation-direction: alternate;
+				animation-iteration-count: infinite;
+				animation-timing-function:(.09,.67,.26,.89);
+			}
+			.f{
+				width: 30px;
+				height: 30px;
+				border-radius: 15px;
+				background: pink;
+				position: absolute;
+				left: 220px;
+				top: 300px;
+				float: left;
+				animation-name: name;
+				animation-duration: 0.7s;
+				animation-direction: alternate;
+				animation-iteration-count: infinite;
+				animation-timing-function:(.09,.67,.26,.89);
+			}
+			.z{
+				width: 300px;
+				height: 300px;
+				position: relative;
+				transform: rotate(-60deg);
+				margin: 200px auto;
+			}
+			div:hover{
+				animation-play-state: paused;
+			}
+			@keyframes name{
+				from{
+					top: -50px;
+				}
+				to{
+					top:150px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="z">
+		<div class="a"></div>
+		<div class="b"></div>
+		<div class="c"></div>
+		<div class="d"></div>
+		<div class="e"></div>
+		<div class="f"></div>
+		</div>
+		
+	</body>
+</html>

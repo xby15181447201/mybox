@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/ma.css"/>
+	</head>
+	<body>
+		<div><h1>课程辅导系统</h1></div>
+		<hr />
+		<div class="top">
+			<div class="top1">课程辅导查询系统(教师)</div>
+			<div class="top2">
+				<select name="person">
+				    <option>小明</option>
+				    <option>小红</option>
+				    <option>小黄</option>
+			    </select>
+			</div>
+		</div>
+		<div class="big clear">
+			<div class="three ">
+				<div class="three1">课程管理</div>
+				<div class="three2">学生管理</div>
+				<div class="three3">教师信息</div>
+				<div class="three4">账户密码重置</div>
+				<div class="three5">修改密码</div>
+				<div class="three6">退出系统</div>
+				<div>Responsive</div>
+			</div>
+			<div class="four">
+				<div class="four1 clear">
+					<div class="four11">教授的课程</div>
+					<div class="four12"><input type="text" placeholder="请输入课程名"/></div>
+					<div class="four13"><input type="button" value="搜索" /></div>
+				</div>
+				<table border="1" cellspacing="0" class="t1">
+					<tr>
+						<th>课程号</th>
+						<th>课程名称</th>
+						<th>授课老师编号</th>
+						<th>上课时间</th>
+						<th>上课地点</th>
+						<th>周数</th>
+						<th>课程类型</th>
+						<th>学分</th>
+						<th>操作</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>C语言编程设计</td>
+						<td>1001</td>
+						<td>周二</td>
+						<td>5503</td>
+						<td>18</td>
+						<td>必修课</td>
+						<td>3</td>
+						<td><a href="#">成绩</a></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Pyhton爬虫设计</td>
+						<td>1001</td>
+						<td>周四</td>
+						<td>9503</td>
+						<td>18</td>
+						<td>必修课</td>
+						<td>3</td>
+						<td><a href="#">成绩</a></td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>数据结构</td>
+						<td>1001</td>
+						<td>周五</td>
+						<td>9408</td>
+						<td>18</td>
+						<td>必修课</td>
+						<td>4</td>
+						<td><a href="#">成绩</a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="five">
+				<div class="four1 clear">
+					<div class="four11">选该课程学生名单</div>
+					<div class="five12"><input type="text" placeholder="学生"/></div>
+					<div class="four13"><input type="button" value="搜索" /></div>
+				</div>
+				<table border="1" cellspacing="0" class="t1">
+					<tr>
+						<th>学号</th>
+						<th>姓名</th>
+						<th>分数</th>
+						<th>操作</th>
+					</tr>
+					<tr>
+						<td>10001</td>
+						<td>小黄</td>
+						<td>95</td>
+						<td><a href="#">已打分</a></td>
+					</tr>
+					<tr>
+						<td>10002</td>
+						<td>小红</td>
+						<td>94</td>
+						<td><a href="#">已打分</a></td>
+					</tr>
+					<tr>
+						<td>10003</td>
+						<td>小明</td>
+						<td>未打分</td>
+						<td><a href="#">成绩</a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="six">
+				<div class="four1 clear">
+					<div class="four11">教师信息</div>
+					<div class="six12"><input type="text" placeholder="信息"/></div>
+					<div class="four13"><input type="button" value="搜索" /></div>
+				</div>
+				<div class="six1">
+					<span>编号</span>
+					<input type="text" placeholder="编号" />
+				</div>
+				<div class="six1">
+					<span>姓名</span>
+					<input type="text" placeholder="姓名" />
+				</div>
+				<div class="six2">
+					<span>性别</span>
+					<input type="radio" name="sex" checked="checked"/>男
+					<input type="radio" name="sex" />女
+				</div>
+				<div class="six3">
+					<span>出生年份</span>
+					<input type="text" placeholder="姓名" />
+				</div>
+				<div class="six4">
+					<span>所属院系</span>
+					<select>
+						<option>计算机学院</option>
+						<option>美术学院</option>
+						<option>外国语学院</option>
+						<option>医学院</option>
+					</select>
+				</div>
+				<div class="six5">
+					<input type="submit" />
+					<input type="reset"  />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

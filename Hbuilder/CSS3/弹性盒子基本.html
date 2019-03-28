@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{
+				display: flex;
+				justify-content: center;
+			}
+			.father{
+				width: 800px;
+				height: 700px;
+				background: yellow;
+				display: flex;	
+				flex-flow: row wrap;
+				justify-content: space-between; 
+				justify-content: flex-end;
+				justify-content: center;
+				/*align-items: center;*/
+				align-content: space-between;
+			}
+			.son{
+				width: 100px;
+				height: 100px;
+				background: orange;
+			}
+			.son:nth-child(2n){
+				background: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="father">
+			<div class="son"></div>
+			<div class="son"></div>
+			<div class="son"></div>
+			<div class="son"></div>
+			<div class="son"></div>
+			<div class="son"></div>
+			<div class="son"></div>
+			<div class="son"></div>
+			<div class="son"></div>
+		</div>
+	</body>
+</html>

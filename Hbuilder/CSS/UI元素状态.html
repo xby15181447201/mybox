@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			 /*元素获取焦点时*/
+			.input1:focus{
+				/*去掉默认边框线*/
+				outline: none;
+				background: orange;
+			}
+			/*当选中的时候添加样式 给他的兄弟span添加样式*/
+			.input2:checked+span{
+				color: red;
+			}
+			/*匹配所有启用的元素*/
+			input:enabled{
+				color:blue;
+			}
+			/*匹配所用禁用的元素*/
+			input:disabled{
+				background: red;;
+			}
+		</style>
+	</head>
+	<body>
+		<input type="text" class="input1" />
+		<input type="password"  />
+		<input type="checkbox" class="input2" /><span>篮球</span>
+		<input type="checkbox" class="input2" /> <span>足球</span>
+		<input type="text" disabled="disabled">
+		
+	</body>
+</html>
